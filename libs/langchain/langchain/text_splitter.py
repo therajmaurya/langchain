@@ -846,6 +846,7 @@ class Language(str, Enum):
     C = "c"
     LUA = "lua"
     PERL = "perl"
+    HCL = "hcl"
 
 
 class RecursiveCharacterTextSplitter(TextSplitter):
